@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body style="background-color: #05c46b; font-family: Verdana; text-align: center;">
+    <h1>Keshva Tessaract Survey Form</h1>
+    <form id="form" style="background-color: #fff; max-width: 500px; margin: 50px auto; padding: 30px 20px; box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);">
+        <div class="form-control" style="text-align: left; margin-bottom: 25px;">
+            <label for="name" id="label-name" style="display: block; margin-bottom: 10px;">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" style="border: 1px solid #777; border-radius: 2px; font-family: inherit; padding: 10px; display: block; width: 95%;">
+        </div>
+
+        <div class="form" style="text-align: left; margin-bottom: 25px;">
+            <label for="email" id="label-email" style="display: block; margin-bottom: 10px;">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" style="border: 1px solid #777; border-radius: 2px; font-family: inherit; padding: 10px; display: block; width: 95%;">
+        </div>
+
+        <div class="form" style="text-align: left; margin-bottom: 25px;">
+            <label for="age" id="label-age" style="display: block; margin-bottom: 10px;">Age</label>
+            <input type="text" id="age" name="age" placeholder="Enter your age" style="border: 1px solid #777; border-radius: 2px; font-family: inherit; padding: 10px; display: block; width: 95%;">
+        </div>
+
+        <div class="form" style="text-align: left; margin-bottom: 25px;">
+            <label for="role" id="label-role" style="display: block; margin-bottom: 10px;">Which option best describes you?</label>
+            <select name="role" id="role" style="border: 1px solid #777; border-radius: 2px; font-family: inherit; padding: 10px; display: block; width: 95%;">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+		<div class="form" style="text-align: left; margin-bottom: 25px;">
+            <label>Would you recommend Keshva Tessaract to a friend?</label>
+			<br><br>
+            <label for="recommed-1" style="margin-right: 10px;">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+			<br><br>
+            <label for="recommed-2" style="margin-right: 10px;">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+			<br><br>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>
+			<br>
+        </div>
+
+        <div class="form-control" style="text-align: left; margin-bottom: 25px;">
+            <label>Languages and Frameworks known<small>(Check all that apply)</small></label>
+            <br><br>
+            <label for="inp-1" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">C
+            </label>
+			<br><br>
+            <label for="inp-2" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">C++
+            </label>
+			<br><br>
+            <label for="inp-3" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">C#
+            </label>
+			<br><br>
+            <label for="inp-4" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">Java
+            </label>
+			<br><br>
+            <label for="inp-5" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">Python
+            </label>
+			<br><br>
+            <label for="inp-6" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+			<br><br>
+            <label for="inp-7" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">React
+            </label>
+			<br><br>
+            <label for="inp-8" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">Angular
+            </label>
+			<br><br>
+            <label for="inp-9" style="margin-right: 10px;">
+                <input type="checkbox" name="inp">Django
+            </label>
+			<br><br>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Spring
+            </label>
+			<br>
+        </div>
+
+        <div class="form-control" style="text-align: left; margin-bottom: 25px;">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here" style="border: 1px solid #777; border-radius: 2px; font-family: inherit; padding: 10px; display: block; width: 95%;"></textarea>
+        </div>
+        <button type="submit" value="submit" style="background-color: #05c46b; border: 1px solid #777; border-radius: 2px; font-family: inherit; font-size: 21px; display: block; width: 100%; margin-top: 50px; margin-bottom: 20px;">Submit</button>
+    </form>
+</body>
+
+</html>
+
